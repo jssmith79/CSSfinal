@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+}
+
+nav {
+    display: inline;
+    list-style-type: none;
+    height: 0px;
+    width: 0px;
+    padding: 4px;
+    margin: 10px;
+}
+
+li {
+    float:left;
+    display: block;
+    padding: 10px;
+}
+
+li:hover {
+    color: purple;
+}
+
+header {
+    font-size: 48pt;
+    font-weight: 200;
+    padding-left: 5px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    background-color: tan;
+}
