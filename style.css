@@ -18,7 +18,7 @@ li {
 }
 
 li:hover {
-    color: purple;
+    color: gray;
 }
 
 header {
@@ -28,5 +28,21 @@ header {
     display: flex;
     justify-content: left;
     margin-bottom: 20px;
-    background-color: tan;
+    background-color: #e8e4cf;
+}
+
+.box1 {
+    border: 3px groove darkgray;
+    margin: 5px;
+    justify-content: center;
+    background-color: #e8e4cf;
+    font-size: 14pt;
+    margin-left: 3em;
+    margin-right: 200px;
+}
+
+.box, .books {
+    display: flex;
+    align-content: space-between;
+    margin-left: 200px;
 }
