@@ -48,6 +48,8 @@ header {
 .box1 .books {
     display: flex !important;
     justify-content: space-between !important;
+    align-items: center;
+    text-align: center;
 }
 
 .logo {
