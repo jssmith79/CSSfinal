@@ -32,7 +32,7 @@ header {
 
 }
 
-body .box1 {
+.box1 {
     border: 1px groove darkgray;
     margin: 5px;
     justify-content: center;
@@ -45,7 +45,7 @@ body .box1 {
     padding-bottom: 10px;
 }
 
-.books {
+.box1 .books {
     display: flex !important;
     justify-content: space-between !important;
 }
