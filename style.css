@@ -24,25 +24,34 @@ li:hover {
 header {
     font-size: 48pt;
     font-weight: 200;
-    padding-left: 5px;
+    padding: 5px;
     display: flex;
     justify-content: left;
     margin-bottom: 20px;
     background-color: #e8e4cf;
+
 }
 
-.box1 {
-    border: 3px groove darkgray;
+body .box1 {
+    border: 1px groove darkgray;
     margin: 5px;
     justify-content: center;
     background-color: #e8e4cf;
     font-size: 14pt;
-    margin-left: 3em;
+    margin-left: 100px;
     margin-right: 200px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.box, .books {
-    display: flex;
-    align-content: space-between;
-    margin-left: 200px;
+.books {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.logo {
+    height: 40px;
+    width: 300px;
+
 }
